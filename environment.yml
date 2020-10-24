@@ -1,0 +1,75 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - owslib
+  - pandas
+  - matplotlib-base
+  - xarray
+  - scipy
+  - geopandas
+  - geojson
+  - orjson
+  - folium
+  - rasterio
+  - pytables
+  - networkx
+  - defusedxml
+
+  - dask
+  - h5netcdf
+  - netcdf4
+  - bottleneck
+  - descartes
+  - lxml
+  - sparse
+  - zarr
+  - simplejson
+
+  - cmocean
+  - viscm
+  - geoplot
+  - colorspacious
+  - mapclassify
+  - seaborn-base
+
+  - pytest-cov
+  - pytest-xdist
+  - pre-commit
+  - codecov
+  - coverage
+
+  - numba
+  - pyarrow
+  - osmnx
+  - tikzplotlib
+  - nodejs
+  - pint
+  - xlrd
+  - mamba
+
+  - jupyterlab
+  - recommonmark
+  - nbsphinx
+  - sphinx
+  - sphinx-copybutton
+  - numpydoc
+
+  - beautifulsoup4
+  - python-slugify
+  - css-html-js-minify
+  - unidecode
+  - mpi4py
+  - pathos
+  - pip:
+    - nbsphinx_link
+    - numbagg
+    - git+https://github.com/bashtage/sphinx-material.git
+    - git+https://github.com/cheginit/pygeoogc.git
+    - git+https://github.com/cheginit/pygeoutils.git
+    - git+https://github.com/cheginit/pynhd.git
+    - git+https://github.com/cheginit/py3dep.git
+    - git+https://github.com/cheginit/pydaymet.git
+    - git+https://github.com/cheginit/hydrodata.git
